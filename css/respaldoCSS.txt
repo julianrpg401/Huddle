@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+:root{
+  /* Poppins */
+  --Poppins: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+   
+  /* Open Sans */
+  --Open-Sans: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+
+  /* Colores */
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+body{
+  font-family: var(--Poppins);
+  color: var(--Very-Dark-Cyan);
+}
+
+/* Seccion cabeza */
+.encabezado{
+  padding-block: 26px;
+  padding-inline: 16px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.encabezado__nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.encabezado__logo{
+  width: 35%;
+  height: 20px;
+}
+.encabezado__huddle{
+  width: 100%;
+}
+.encabezado__btn{
+  appearance: none;
+  padding: 6px 18px;
+  background-color: white;
+  color: var(--Light-Pink);
+  border: 1px solid var(--Light-Pink);
+  border-radius: 20px;
+}
+
+/* Cuerpo */
+.first__section{
+  text-align: center;
+  margin-inline: 35px;
+}
+.titulo{
+  width: 100%;
+  margin-bottom: 22px;
+}
+.paragraph{
+  width: 100%;
+  font-family: var(--Open-Sans);
+  font-size: medium;
+  margin-bottom: 46px;
+}
+.button{
+  appearance: none;
+  background-color: var(--Pink);
+  color: white;
+  padding-inline: 40px;
+  padding-block: 20px;
+  border: 0px;
+  border-radius: 40px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+.screen__mockups{
+  width: 100%;
+}
+.image{
+  padding-inline: 45px;
+  width: 100%;
+}
+.first__section{
+  margin-bottom: 120px;
+}
+.second__section{
+  text-align: center;
+  margin-inline: 30%;
+}
+.second__section--container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 26px;
+}
+.icon{
+  display: block;
+  width: 20%;
+}
+.second__section--span{
+  display: block;
+  font-size: 3.6em;
+}
+.size__span{
+  font-size: 3em;
+}
+.second__section--paragraph{
+  opacity: calc(70%);
+  font-size: 0.9em;
+}
+.color__icon{
+  color: var(--Light-Pink);
+}
+
+.container{
+  text-align: center;
+  padding-inline: 35px;
+}
+.wave{
+  position: relative;
+  bottom: 60px;
+}
+.third__section{
+  background-color: #F6FBFF;
+}
